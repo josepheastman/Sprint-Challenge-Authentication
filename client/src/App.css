@@ -22,6 +22,54 @@
   color: #61dafb;
 }
 
+form {
+  margin-top: 170px;
+  margin-left: 630px;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+
+  padding-bottom: 100px;
+  padding-top: 100px;
+  border: 2px solid #c9c9c9;
+  padding-left: 200px;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  /* float: left; */
+  /* clear: left; */
+  width: 250px;
+  /* text-align: right; */
+}
+
+input {
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 2px solid #c9c9c9;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+}
+
+button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  color: black;
+  font-weight: bold;
+  background-color: #76b2e8;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+button:hover {
+  /* background-color: #c1e0f4; */
+  background-color: #aed5ef;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
