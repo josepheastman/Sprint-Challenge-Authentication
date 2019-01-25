@@ -2,6 +2,13 @@ import React from "react";
 import axios from "axios";
 import styled from "styled-components";
 
+const StyledRegister = styled.div`
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 100px;
+  font-family: cursive;
+`;
+
 class Signup extends React.Component {
   state = {
     username: "",
@@ -31,6 +38,10 @@ class Signup extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
+        <div>
+          {" "}
+          <StyledRegister>Register</StyledRegister>
+        </div>
         <div>
           <label htlmfor="">Username</label>
           <input

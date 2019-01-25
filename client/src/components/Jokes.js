@@ -27,14 +27,13 @@ class Jokes extends React.Component {
 
   render() {
     return (
-      <>
-        <h2>Dad Jokes</h2>
+      <div>
         <ul>
           {this.state.jokes.map(joke => (
             <li key={joke.id}>{joke.joke}</li>
           ))}
         </ul>
-      </>
+      </div>
     );
   }
 }

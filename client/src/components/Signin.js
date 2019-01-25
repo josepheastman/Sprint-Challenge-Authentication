@@ -1,5 +1,13 @@
 import React from "react";
 import axios from "axios";
+import styled from "styled-components";
+
+const StyledLogin = styled.div`
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 100px;
+  font-family: cursive;
+`;
 
 class Signin extends React.Component {
   state = {
@@ -31,6 +39,7 @@ class Signin extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
+        <StyledLogin>Login</StyledLogin>
         <div>
           <label htlmfor="">Username</label>
           <input

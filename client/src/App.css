@@ -23,7 +23,7 @@
 }
 
 form {
-  margin-top: 170px;
+  margin-top: 110px;
   margin-left: 630px;
   width: 500px;
   height: 300px;
@@ -38,10 +38,8 @@ form {
 label {
   margin-top: 10px;
   display: block;
-  /* float: left; */
-  /* clear: left; */
   width: 250px;
-  /* text-align: right; */
+  font-family: cursive;
 }
 
 input {
@@ -51,6 +49,7 @@ input {
   width: 200px;
   height: 20px;
   padding: 10px;
+  font-family: cursive;
 }
 
 button {
@@ -62,12 +61,36 @@ button {
   background-color: #76b2e8;
   font-size: 16px;
   margin-left: 25px;
+  font-family: cursive;
 }
 
 button:hover {
-  /* background-color: #c1e0f4; */
   background-color: #aed5ef;
   cursor: pointer;
+}
+
+div h2 {
+  margin-left: 900px;
+  font-family: cursive;
+}
+
+div ul {
+  display: flex;
+  margin-top: 100px;
+  height: 500px;
+  flex-wrap: wrap;
+
+  padding-bottom: 200px;
+  padding-left: 200px;
+}
+
+div ul li {
+  display: flex;
+  margin: 5px;
+  width: 500px;
+  margin-top: 10px;
+  font-family: cursive;
+  border: 2px solid #c9c9c9;
 }
 
 @keyframes App-logo-spin {

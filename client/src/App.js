@@ -9,12 +9,6 @@ import Signin from "./components/Signin.js";
 import Jokes from "./components/Jokes.js";
 
 const StyledNav = styled.div`
-  // display: flex;
-  // flex-direciton: row;
-  // margin-left: auto;
-  // margin-right: auto;
-  // display: inline-block;
-  // height: 100%;
   margin-left: 500px;
   font-family: cursive;
   font-size: 20px;
