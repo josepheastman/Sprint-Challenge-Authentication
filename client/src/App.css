@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+form {
+  margin-top: 110px;
+  margin-left: 630px;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+
+  padding-bottom: 100px;
+  padding-top: 100px;
+  border: 2px solid #c9c9c9;
+  padding-left: 200px;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  width: 250px;
+  font-family: cursive;
+}
+
+input {
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 2px solid #c9c9c9;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  font-family: cursive;
+}
+
+button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  color: black;
+  font-weight: bold;
+  background-color: #76b2e8;
+  font-size: 16px;
+  margin-left: 32px;
+  font-family: cursive;
+}
+
+button:hover {
+  background-color: #aed5ef;
+  cursor: pointer;
+}
+
+div h2 {
+  margin-left: 900px;
+  font-family: cursive;
+}
+
+div ul {
+  display: flex;
+  margin-top: 100px;
+  height: 500px;
+  flex-wrap: wrap;
+
+  padding-bottom: 200px;
+  padding-left: 200px;
+}
+
+div ul li {
+  display: flex;
+  margin: 5px;
+  width: 500px;
+  margin-top: 10px;
+  font-family: cursive;
+  border: 2px solid #c9c9c9;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
